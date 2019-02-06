@@ -28,27 +28,27 @@ const Footer = props => (
         <h2>Follow</h2>
         <ul className="icons">
           <li>
-            <a href="http://twitter.com/" className="icon style2 fa-twitter">
+            <a href="https://twitter.com/" className="icon style2 fa-twitter">
               <span className="label">Twitter</span>
             </a>
           </li>
           <li>
-            <a href="http://facebook.com/" className="icon style2 fa-facebook">
+            <a href="https://facebook.com/" className="icon style2 fa-facebook">
               <span className="label">Facebook</span>
             </a>
           </li>
           <li>
-            <a href="http://instagram.com/" className="icon style2 fa-instagram">
+            <a href="https://instagram.com/" className="icon style2 fa-instagram">
               <span className="label">Instagram</span>
             </a>
           </li>
           <li>
-            <a href="http//dribble.com/" className="icon style2 fa-dribbble">
+            <a href="https://dribble.com/" className="icon style2 fa-dribbble">
               <span className="label">Dribbble</span>
             </a>
           </li>
           <li>
-            <a href="http://github.com/" className="icon style2 fa-github">
+            <a href="https://github.com/" className="icon style2 fa-github">
               <span className="label">GitHub</span>
             </a>
           </li>

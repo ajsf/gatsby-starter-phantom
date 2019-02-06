@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
 const Menu = props => (
-  <nav id="menu">
+  <nav id="menu" ref={props.domRef}>
     <div className="inner">
       <h2>Menu</h2>
       <ul>
@@ -24,7 +24,7 @@ const Menu = props => (
         </li>
       </ul>
     </div>
-    <div className="close" onClick={props.onToggleMenu} >
+    <div className="close" onClick={props.onToggleMenu}>
       Close
     </div>
   </nav>
@@ -32,6 +32,10 @@ const Menu = props => (
 
 Menu.propTypes = {
   onToggleMenu: PropTypes.func,
+  domRef: PropTypes.oneOfType([
+    PropTypes.func,
+    PropTypes.shape({ current: PropTypes.instanceOf(Element) }),
+  ]),
 }
 
 export default Menu

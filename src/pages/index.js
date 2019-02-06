@@ -31,7 +31,7 @@ class HomeIndex extends React.Component {
           <div className="inner">
             <header>
               <h1>
-                This is Phantom, a free, fully responsive site
+                This is Phantom, a free, fully responsive site{` `}
                 <br />
                 template designed by <a href="http://html5up.net">HTML5 UP</a>.
               </h1>
