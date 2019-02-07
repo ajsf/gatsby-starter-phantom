@@ -32,10 +32,6 @@ const Menu = props => (
 
 Menu.propTypes = {
   onToggleMenu: PropTypes.func,
-  domRef: PropTypes.oneOfType([
-    PropTypes.func,
-    PropTypes.shape({ current: PropTypes.instanceOf(Element) }),
-  ]),
 }
 
 export default Menu
